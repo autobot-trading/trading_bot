@@ -3,8 +3,14 @@
 //
 
 #include <iostream>
+#include "binance_api.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    BinanceAPI binance;
+
+    std::string response = BinanceAPI::ping();
+    std::cout << "Response: " << response << std::endl;
+
     return 0;
 }
+

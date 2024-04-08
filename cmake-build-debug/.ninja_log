@@ -1,3 +1,8 @@
 # ninja log v5
-0	351	1712575791114584613	CMakeFiles/trading_bot.dir/main.cpp.o	a0d41a823af7abdd
-357	392	1712575791156821823	trading_bot	c2d185097eb5537d
+3	302	1712575963654022310	CMakeFiles/trading_bot.dir/binance_api.cpp.o	ac4aa54ce6c31519
+0	632	1712576035943417112	build.ninja	4dae91da4c8984c2
+2	279	1712575963630261838	CMakeFiles/trading_bot.dir/main.cpp.o	fc40856a415b3abe
+4	53	1712575991754022082	trading_bot	407ec6f3ecc308e7
+3	289	1712576060082237214	CMakeFiles/trading_bot.dir/main.cpp.o	fc40856a415b3abe
+4	305	1712576060098252460	CMakeFiles/trading_bot.dir/binance_api.cpp.o	ac4aa54ce6c31519
+305	343	1712576060137391888	trading_bot	407ec6f3ecc308e7
