@@ -5,6 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include <filesystem> // For filesystem operations (C++17)
+#include "xlsxwriter.h"
 #include "../binance_api.h"
 
 namespace fs = std::__fs::filesystem;
