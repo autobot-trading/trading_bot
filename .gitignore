@@ -1,0 +1,2 @@
+# ignore cmake-build-debug folder
+cmake-build-debug
