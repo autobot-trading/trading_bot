@@ -7,7 +7,7 @@
 #include <filesystem> // For filesystem operations (C++17)
 #include "../binance_api.h"
 
-namespace fs = std::__fs::filesystem;
+namespace fs = std::filesystem;
 
 #define STRINGIFY(x) #x
 
