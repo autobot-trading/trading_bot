@@ -5,11 +5,16 @@ set(CMAKE_CXX_STANDARD 17)
 
 # Find libcurl
 find_package(CURL REQUIRED)
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(Xlsxwriter REQUIRED IMPORTED_TARGET xlsxwriter)
 
 # Add the executable
 add_executable(trading_bot test/main.cpp binance_api.cpp
         binance_api.cpp)
 
-# Link against libcurl
+target_link_libraries(${PROJECT_NAME} PkgConfig::Xlsxwriter)
 target_link_libraries(trading_bot CURL::libcurl)
+
+
+
 
