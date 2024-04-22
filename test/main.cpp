@@ -9,11 +9,12 @@
 
 namespace fs = std::filesystem;
 
-#define STRINGIFY(x) #x
+// Macro to remove "::" from method names
+#define REMOVE_SCOPE(x) (std::string(#x).substr(std::string(#x).find_last_of("::") + 1))
 
 void printRes(const std::string& api, const std::string& methodName = "unknown");
 
-#define PRINT_RES(api) printRes(api, "1")
+#define PRINT_RES(api) printRes(api, REMOVE_SCOPE(api))
 
 int main() {
     PRINT_RES(BinanceAPI::ping());
