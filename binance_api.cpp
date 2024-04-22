@@ -3,7 +3,6 @@
 //
 
 #include "binance_api.h"
-#include "binance_api.h"
 #include <iostream>
 #include <curl/curl.h>
 
@@ -33,6 +32,111 @@ std::string BinanceAPI::ping() {
 
     return response;
 }
+
+std::string BinanceAPI::exchangeInfo() {
+    CURL *curl;
+    CURLcode res;
+    curl = curl_easy_init();
+    std::string response;
+
+    if (curl) {
+        curl_easy_setopt(curl, CURLOPT_URL, (API_URL + "exchangeInfo").c_str());
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response);
+        res = curl_easy_perform(curl);
+
+        if (res != CURLE_OK)
+            std::cerr << "curl_easy_perform() failed: " << curl_easy_strerror(res) << std::endl;
+
+        curl_easy_cleanup(curl);
+    }
+
+    return response;
+}
+
+std::string BinanceAPI::depth(const std::string& symbol) {
+    CURL *curl;
+    CURLcode res;
+    curl = curl_easy_init();
+    std::string response;
+
+    if (curl) {
+        // Construct the API URL with the symbol parameter
+        std::string url = API_URL + "depth?symbol=" + symbol;
+
+        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response);
+        res = curl_easy_perform(curl);
+
+        if (res != CURLE_OK)
+            std::cerr << "curl_easy_perform() failed: " << curl_easy_strerror(res) << std::endl;
+
+        curl_easy_cleanup(curl);
+    }
+
+    return response;
+}
+
+std::string BinanceAPI::trade(const std::string& symbol, const std::string& limit) {
+    CURL *curl;
+    CURLcode res;
+    curl = curl_easy_init();
+    std::string response;
+
+    if (curl) {
+        // Construct the API URL with the symbol and limit parameters
+        std::string url = API_URL + "trades?symbol=" + symbol + "&limit=" + limit;
+
+        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response);
+        res = curl_easy_perform(curl);
+
+        if (res != CURLE_OK)
+            std::cerr << "curl_easy_perform() failed: " << curl_easy_strerror(res) << std::endl;
+
+        curl_easy_cleanup(curl);
+    }
+
+    return response;
+}
+
+std::string BinanceAPI::klines(const std::string& symbol, const std::string& interval, const std::string& limit,
+                               const std::string& startTime /* = "" */, const std::string& endTime /* = "" */,
+                               const std::string& timeZone /* = "" */) {
+    CURL *curl;
+    CURLcode res;
+    curl = curl_easy_init();
+    std::string response;
+
+    if (curl) {
+        // Construct the API URL with the symbol and limit parameters
+        std::string url = API_URL + "klines?symbol=" + symbol + "&interval=" + interval + "&limit=" + limit;
+        if (!startTime.empty()) {
+            url += "&startTime=" + startTime;
+        }
+        if (!endTime.empty()) {
+            url += "&endTime=" + endTime;
+        }
+        if (!timeZone.empty()) {
+            url += "&timeZone=" + timeZone;
+        }
+
+        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response);
+        res = curl_easy_perform(curl);
+
+        if (res != CURLE_OK)
+            std::cerr << "curl_easy_perform() failed: " << curl_easy_strerror(res) << std::endl;
+
+        curl_easy_cleanup(curl);
+    }
+
+    return response;
+}
+
 
 size_t BinanceAPI::WriteCallback(void *contents, size_t size, size_t nmemb, std::string *data) {
     data->append((char*)contents, size * nmemb);

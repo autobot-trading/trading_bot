@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 11)
 find_package(CURL REQUIRED)
 
 # Add the executable
-add_executable(trading_bot main.cpp binance_api.cpp
+add_executable(trading_bot test/main.cpp binance_api.cpp
         binance_api.cpp)
 
 # Link against libcurl

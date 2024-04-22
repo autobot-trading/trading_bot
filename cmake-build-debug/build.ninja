@@ -49,11 +49,11 @@ cmake_ninja_workdir = /Users/wh/Documents/GitHub/trading_bot/cmake-build-debug/
 
 build cmake_object_order_depends_target_trading_bot: phony || CMakeFiles/trading_bot.dir
 
-build CMakeFiles/trading_bot.dir/main.cpp.o: CXX_COMPILER__trading_bot_unscanned_Debug /Users/wh/Documents/GitHub/trading_bot/main.cpp || cmake_object_order_depends_target_trading_bot
-  DEP_FILE = CMakeFiles/trading_bot.dir/main.cpp.o.d
+build CMakeFiles/trading_bot.dir/test/main.cpp.o: CXX_COMPILER__trading_bot_unscanned_Debug /Users/wh/Documents/GitHub/trading_bot/test/main.cpp || cmake_object_order_depends_target_trading_bot
+  DEP_FILE = CMakeFiles/trading_bot.dir/test/main.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/trading_bot.dir
-  OBJECT_FILE_DIR = CMakeFiles/trading_bot.dir
+  OBJECT_FILE_DIR = CMakeFiles/trading_bot.dir/test
 
 build CMakeFiles/trading_bot.dir/binance_api.cpp.o: CXX_COMPILER__trading_bot_unscanned_Debug /Users/wh/Documents/GitHub/trading_bot/binance_api.cpp || cmake_object_order_depends_target_trading_bot
   DEP_FILE = CMakeFiles/trading_bot.dir/binance_api.cpp.o.d
@@ -69,7 +69,7 @@ build CMakeFiles/trading_bot.dir/binance_api.cpp.o: CXX_COMPILER__trading_bot_un
 #############################################
 # Link the executable trading_bot
 
-build trading_bot: CXX_EXECUTABLE_LINKER__trading_bot_Debug CMakeFiles/trading_bot.dir/main.cpp.o CMakeFiles/trading_bot.dir/binance_api.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libcurl.tbd
+build trading_bot: CXX_EXECUTABLE_LINKER__trading_bot_Debug CMakeFiles/trading_bot.dir/test/main.cpp.o CMakeFiles/trading_bot.dir/binance_api.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libcurl.tbd
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libcurl.tbd
   OBJECT_DIR = CMakeFiles/trading_bot.dir
