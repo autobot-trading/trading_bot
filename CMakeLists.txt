@@ -8,7 +8,8 @@ find_package(CURL REQUIRED)
 
 # Add the executable
 add_executable(trading_bot test/main.cpp binance_api.cpp
-        binance_api.cpp)
+        binance_api.cpp
+        test/trade_endpoint.cpp)
 
 # Link against libcurl
 target_link_libraries(trading_bot CURL::libcurl)
