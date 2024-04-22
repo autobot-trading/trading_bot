@@ -38,7 +38,7 @@ std::string fetchBtcVolume(const std::string& url) {
 }
 
 //int main() {
-//    std::string url = "https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT";
+//    std::string volume_url = "https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT";
 //    std::string result = fetchBtcVolume(url);
 //    std::cout << "Response from Binance API: " << result << std::endl;
 //    return 0;
