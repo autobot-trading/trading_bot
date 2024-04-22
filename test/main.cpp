@@ -5,7 +5,6 @@
 #include <iostream>
 #include <fstream>
 #include <filesystem> // For filesystem operations (C++17)
-#include "xlsxwriter.h"
 #include "../binance_api.h"
 
 namespace fs = std::__fs::filesystem;
@@ -14,7 +13,7 @@ namespace fs = std::__fs::filesystem;
 
 void printRes(const std::string& api, const std::string& methodName = "unknown");
 
-#define PRINT_RES(api) printRes(api, STRINGIFY(api))
+#define PRINT_RES(api) printRes(api, "1")
 
 int main() {
     PRINT_RES(BinanceAPI::ping());
@@ -33,7 +32,7 @@ void printRes(const std::string& api, const std::string& methodName) {
         fs::create_directory(directory);
 
     // Write JSON to file in json directory
-    std::string filename = directory + "/" + methodName + "_response.json";
+    std::string filename = directory + "/" + methodName + ".json";
     std::ofstream outputFile(filename);
     if (outputFile.is_open()) {
         outputFile << api;

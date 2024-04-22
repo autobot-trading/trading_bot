@@ -97,3 +97,32 @@
   - differs from firm to firm
   - optiver do have researchers, focus on ML techniques/other ways to predict volatility
   - traders -> very broad -> who can cover different strengths/roles that could be covered in other 
+
+- Market Making games (Tradeathon):
+  - What makes a trade good?
+    - If you believe the true val of a thing is X, then you will happily buy the thing for an amt less than X or sell the thing for an amt greater than X.
+    - Goal is to make the most money possible
+  - Info will come out at regular intervals, need to respond to this information very quickly
+  - Delta Dash (optiver's trading platform)
+    - How to measure P/L -> depends if you close your trade or not
+        - View it at current valuation: mid-point of the market (Not real P/L)
+        - Or look at the last trading price 
+
+- Systems to be accurate, reliable and fast
+  - hardware using FPGA
+  - code tailored to each exchange
+
+- Software Dev and FPGA Dev
+  - Direct impact on the financial market
+  - Ppl are open to feedback
+  - Do your research about the recruitment process / roles
+
+- Improve the market, industry leader in market making, trade on more than 70 exchanges
+- Teamwork, works collectively, focus on global convention
+- Optiver's textbook
+
+- Career opens in July
+- SG office: Trading: Quantitative problem solving, analytical mindset
+- Tech: C++, C#, Java, Rust
+
+- 
