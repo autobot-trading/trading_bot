@@ -19,6 +19,8 @@ public:
                                const std::string &startTime,
                                const std::string &endTime, const std::string &timeZone);
 
+    static std::string fetchBtcVolume(const std::string& url);
+
 private:
     static std::string callAPI(const std::string &endpoint);
     static size_t WriteCallback(void *contents, size_t size, size_t nmemb, std::string *data);
