@@ -9,6 +9,11 @@
 #include <sstream>
 #include "../binance_api.h"
 
+#include "../binacpp_utils.h"
+#include "../binacpp_websocket.h"
+#include "../binacpp_logger.h"
+
+
 namespace fs = std::filesystem;
 
 // Macro to remove "::" from method names
