@@ -12,7 +12,8 @@
 #include <vector>
 #include <exception>
 
-#include <json/json.h>
+#include <json/json.h> // Include the "json/json.h" header file.
+
 #include <libwebsockets.h>
 
 

@@ -9,10 +9,12 @@
 #include <openssl/hmac.h>
 using namespace std;
 
+const int SHA256_DIGEST_LENGTH = 32;
+
 std::string sign_request(const std::string& key, const std::string& data) {
     unsigned char* digest = HMAC(EVP_sha256(), key.c_str(), key.length(), 
             (unsigned char*)data.c_str(), data.length(), NULL, NULL);    
-    char mdString[SHA256_DIGEST_LENGTH*2+1];
+    char mdString[SHA256_DIGEST_LENGTH * 2+1];
     for (int i = 0; i < SHA256_DIGEST_LENGTH; ++i)
         sprintf(&mdString[i*2], "%02x", (unsigned int)digest[i]);
     return std::string(mdString);
