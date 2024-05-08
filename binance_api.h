@@ -19,7 +19,9 @@ public:
                                const std::string &startTime,
                                const std::string &endTime, const std::string &timeZone);
 
-    static std::string fetchBtcVolume(const std::string& url);
+//    static std::string fetchVolume(const std::string& url);
+//    static std:: void trade (const std::string& url);
+
 
 private:
     static std::string callAPI(const std::string &endpoint);

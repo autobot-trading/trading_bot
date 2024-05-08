@@ -1,6 +1,7 @@
 #include "binance_api.h"
 #include <iostream>
 #include <curl/curl.h>
+using namespace std;
 
 const std::string API_URL = "https://api.binance.com/api/v3/";
 
@@ -40,11 +41,15 @@ std::string BinanceAPI::klines(const std::string& symbol, const std::string& int
     return callAPI(url);
 }
 
-std::string BinanceAPI::callAPI(const std::string& endpoint) {
-    CURL *curl = curl_easy_init();
-    std::string response;
+//std::string BinanceAPI::order(const std::string&symbol, const std::string& side const std:: string&type,
+//                              const std::s);
 
-    if (curl) {
+
+std::string BinanceAPI::callAPI(const string& endpoint) {
+    CURL *curl = curl_easy_init();
+    string response;
+
+    if (curl) { // if curl is not null
         curl_easy_setopt(curl, CURLOPT_URL, (API_URL + endpoint).c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response);
