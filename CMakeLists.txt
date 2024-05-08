@@ -22,11 +22,14 @@ target_link_libraries(trading_bot CURL::libcurl)
 # Add OpenSSL
 find_package(OpenSSL REQUIRED)
 target_link_libraries(trading_bot OpenSSL::SSL)
-# Set the path to the jsoncpp package configuration file
-set(jsoncpp_DIR /opt/homebrew/opt/jsoncpp)
 
-# Find jsoncpp
-find_package(jsoncpp REQUIRED) 
-target_link_libraries(trading_bot jsoncpp_lib)
+
+
+
+#set(jsoncpp_DIR /opt/homebrew/opt/jsoncpp)
+#find_package(jsoncpp REQUIRED)
+#target_link_libraries(trading_bot jsoncpp_lib)
+find_package(jsoncpp CONFIG REQUIRED)
+target_link_libraries(trading_bot JsonCpp::JsonCpp)
 
 

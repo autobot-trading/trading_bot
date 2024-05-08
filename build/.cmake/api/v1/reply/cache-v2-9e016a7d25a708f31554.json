@@ -2710,6 +2710,30 @@
 			"value" : "1"
 		},
 		{
+			"name" : "json_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for json."
+				}
+			],
+			"type" : "PATH",
+			"value" : "json_DIR-NOTFOUND"
+		},
+		{
+			"name" : "jsoncpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for jsoncpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "jsoncpp_DIR-NOTFOUND"
+		},
+		{
 			"name" : "pkgcfg_lib_PC_CURL_curl",
 			"properties" : 
 			[
@@ -2799,7 +2823,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/openssl@3/3.3.0/lib"
+			"value" : "alt-svc;AsynchDNS;GSS-API;HSTS;HTTP2;HTTPS-proxy;IPv6;Kerberos;Largefile;libz;MultiSSL;NTLM;NTLM_WB;SPNEGO;SSL;threadsafe;UnixSockets"
 		},
 		{
 			"name" : "trading_bot_BINARY_DIR",
