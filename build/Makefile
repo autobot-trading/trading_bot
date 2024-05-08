@@ -129,6 +129,30 @@ trading_bot/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/build
 .PHONY : trading_bot/fast
 
+binacpp_websocket.o: binacpp_websocket.cpp.o
+.PHONY : binacpp_websocket.o
+
+# target to build an object file
+binacpp_websocket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o
+.PHONY : binacpp_websocket.cpp.o
+
+binacpp_websocket.i: binacpp_websocket.cpp.i
+.PHONY : binacpp_websocket.i
+
+# target to preprocess a source file
+binacpp_websocket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.i
+.PHONY : binacpp_websocket.cpp.i
+
+binacpp_websocket.s: binacpp_websocket.cpp.s
+.PHONY : binacpp_websocket.s
+
+# target to generate assembly for a file
+binacpp_websocket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.s
+.PHONY : binacpp_websocket.cpp.s
+
 binance_api.o: binance_api.cpp.o
 .PHONY : binance_api.o
 
@@ -152,6 +176,30 @@ binance_api.s: binance_api.cpp.s
 binance_api.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binance_api.cpp.s
 .PHONY : binance_api.cpp.s
+
+place_order.o: place_order.cpp.o
+.PHONY : place_order.o
+
+# target to build an object file
+place_order.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/place_order.cpp.o
+.PHONY : place_order.cpp.o
+
+place_order.i: place_order.cpp.i
+.PHONY : place_order.i
+
+# target to preprocess a source file
+place_order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/place_order.cpp.i
+.PHONY : place_order.cpp.i
+
+place_order.s: place_order.cpp.s
+.PHONY : place_order.s
+
+# target to generate assembly for a file
+place_order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/place_order.cpp.s
+.PHONY : place_order.cpp.s
 
 test/main.o: test/main.cpp.o
 .PHONY : test/main.o
@@ -177,30 +225,6 @@ test/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/test/main.cpp.s
 .PHONY : test/main.cpp.s
 
-test/trade_endpoint.o: test/trade_endpoint.cpp.o
-.PHONY : test/trade_endpoint.o
-
-# target to build an object file
-test/trade_endpoint.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/test/trade_endpoint.cpp.o
-.PHONY : test/trade_endpoint.cpp.o
-
-test/trade_endpoint.i: test/trade_endpoint.cpp.i
-.PHONY : test/trade_endpoint.i
-
-# target to preprocess a source file
-test/trade_endpoint.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/test/trade_endpoint.cpp.i
-.PHONY : test/trade_endpoint.cpp.i
-
-test/trade_endpoint.s: test/trade_endpoint.cpp.s
-.PHONY : test/trade_endpoint.s
-
-# target to generate assembly for a file
-test/trade_endpoint.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/test/trade_endpoint.cpp.s
-.PHONY : test/trade_endpoint.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,15 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... trading_bot"
+	@echo "... binacpp_websocket.o"
+	@echo "... binacpp_websocket.i"
+	@echo "... binacpp_websocket.s"
 	@echo "... binance_api.o"
 	@echo "... binance_api.i"
 	@echo "... binance_api.s"
+	@echo "... place_order.o"
+	@echo "... place_order.i"
+	@echo "... place_order.s"
 	@echo "... test/main.o"
 	@echo "... test/main.i"
 	@echo "... test/main.s"
-	@echo "... test/trade_endpoint.o"
-	@echo "... test/trade_endpoint.i"
-	@echo "... test/trade_endpoint.s"
 .PHONY : help
 
 
