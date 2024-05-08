@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/emma/Desktop/Repos/trading_bot/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-13  -isystem /opt/homebrew/Cellar/libxlsxwriter/1.1.7/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_bot.dir/test/main.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/test/main.cpp",
+  "file": "/Users/emma/Desktop/Repos/trading_bot/test/main.cpp",
+  "output": "CMakeFiles/trading_bot.dir/test/main.cpp.o"
+},
+{
+  "directory": "/Users/emma/Desktop/Repos/trading_bot/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-13  -isystem /opt/homebrew/Cellar/libxlsxwriter/1.1.7/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_bot.dir/binance_api.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/binance_api.cpp",
+  "file": "/Users/emma/Desktop/Repos/trading_bot/binance_api.cpp",
+  "output": "CMakeFiles/trading_bot.dir/binance_api.cpp.o"
+},
+{
+  "directory": "/Users/emma/Desktop/Repos/trading_bot/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-13  -isystem /opt/homebrew/Cellar/libxlsxwriter/1.1.7/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_bot.dir/test/trade_endpoint.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/test/trade_endpoint.cpp",
+  "file": "/Users/emma/Desktop/Repos/trading_bot/test/trade_endpoint.cpp",
+  "output": "CMakeFiles/trading_bot.dir/test/trade_endpoint.cpp.o"
+}
+]
