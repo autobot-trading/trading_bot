@@ -6,8 +6,8 @@ using namespace std;
 // using binance spot testnet
 
 
-const std::string API_URL = "https://api.binance.com/api/v3/";
-const string END_POINT_URL = "wss://testnet.binance.vision/ws-api/v3";
+const std::string API_URL = "https://testnet.binance.vision/api";
+const std::string WSS_URL = "wss://testnet.binance.vision/ws-api/v3";
 //If you experience issues with the standard 443 port, alternative port 9443 is also available.
 // general api information:
 //github.com/binance/binance-spot-api-docs/blob/master/testnet/web-socket-api.md

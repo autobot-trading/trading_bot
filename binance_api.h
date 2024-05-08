@@ -18,6 +18,7 @@ public:
     static std::string klines(const std::string &symbol, const std::string &interval, const std::string &limit,
                                const std::string &startTime,
                                const std::string &endTime, const std::string &timeZone);
+    static std::string accountInfo();
 
 //    static std::string fetchVolume(const std::string& url);
 //    static std:: void trade (const std::string& url);

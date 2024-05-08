@@ -1,2 +1,5 @@
 # ignore cmake-build-debug folder
 cmake-build-debug/
+
+# ignore secure information
+*.pem

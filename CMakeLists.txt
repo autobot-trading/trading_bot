@@ -11,7 +11,7 @@ pkg_check_modules(Xlsxwriter REQUIRED IMPORTED_TARGET xlsxwriter)
 # Add the executable
 add_executable(trading_bot test/main.cpp binance_api.cpp
         binance_api.cpp
-        test/trade_endpoint.cpp)
+)
 
 target_link_libraries(${PROJECT_NAME} PkgConfig::Xlsxwriter)
 target_link_libraries(trading_bot CURL::libcurl)
