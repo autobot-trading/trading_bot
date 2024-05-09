@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/trading_bot.dir/binacpp.cpp.o"
+  "CMakeFiles/trading_bot.dir/binacpp.cpp.o.d"
   "CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o"
   "CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o.d"
   "CMakeFiles/trading_bot.dir/binance_api.cpp.o"

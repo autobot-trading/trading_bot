@@ -22,5 +22,11 @@
   "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-13  -isystem /opt/homebrew/Cellar/libxlsxwriter/1.1.7/include -isystem /opt/homebrew/Cellar/openssl@3/3.3.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/binacpp_websocket.cpp",
   "file": "/Users/emma/Desktop/Repos/trading_bot/binacpp_websocket.cpp",
   "output": "CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o"
+},
+{
+  "directory": "/Users/emma/Desktop/Repos/trading_bot/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-13  -isystem /opt/homebrew/Cellar/libxlsxwriter/1.1.7/include -isystem /opt/homebrew/Cellar/openssl@3/3.3.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_bot.dir/binacpp.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/binacpp.cpp",
+  "file": "/Users/emma/Desktop/Repos/trading_bot/binacpp.cpp",
+  "output": "CMakeFiles/trading_bot.dir/binacpp.cpp.o"
 }
 ]

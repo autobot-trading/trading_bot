@@ -15,6 +15,7 @@ add_executable(trading_bot test/main.cpp binance_api.cpp
         place_order.h
         binacpp.h
         binacpp_websocket.cpp
+        binacpp.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PkgConfig::Xlsxwriter)
@@ -23,13 +24,13 @@ target_link_libraries(trading_bot CURL::libcurl)
 find_package(OpenSSL REQUIRED)
 target_link_libraries(trading_bot OpenSSL::SSL)
 
+# Set the path to the jsoncpp package configuration file
+set(jsoncpp_DIR /opt/homebrew/opt/jsoncpp) # Update this line
+find_package(jsoncpp REQUIRED)
+# target_link_libraries(trading_bot jsoncpp_lib)
+
+#include "json/json.h"
 
 
-
-#set(jsoncpp_DIR /opt/homebrew/opt/jsoncpp)
-#find_package(jsoncpp REQUIRED)
-#target_link_libraries(trading_bot jsoncpp_lib)
-find_package(jsoncpp CONFIG REQUIRED)
-target_link_libraries(trading_bot JsonCpp::JsonCpp)
 
 

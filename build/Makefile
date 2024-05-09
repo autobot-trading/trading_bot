@@ -129,6 +129,30 @@ trading_bot/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/build
 .PHONY : trading_bot/fast
 
+binacpp.o: binacpp.cpp.o
+.PHONY : binacpp.o
+
+# target to build an object file
+binacpp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp.cpp.o
+.PHONY : binacpp.cpp.o
+
+binacpp.i: binacpp.cpp.i
+.PHONY : binacpp.i
+
+# target to preprocess a source file
+binacpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp.cpp.i
+.PHONY : binacpp.cpp.i
+
+binacpp.s: binacpp.cpp.s
+.PHONY : binacpp.s
+
+# target to generate assembly for a file
+binacpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp.cpp.s
+.PHONY : binacpp.cpp.s
+
 binacpp_websocket.o: binacpp_websocket.cpp.o
 .PHONY : binacpp_websocket.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... trading_bot"
+	@echo "... binacpp.o"
+	@echo "... binacpp.i"
+	@echo "... binacpp.s"
 	@echo "... binacpp_websocket.o"
 	@echo "... binacpp_websocket.i"
 	@echo "... binacpp_websocket.s"

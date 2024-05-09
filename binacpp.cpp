@@ -8,9 +8,6 @@
 */
 
 
-
-
-
 #include "binacpp.h"
 #include "binacpp_logger.h"
 #include "binacpp_utils.h"
