@@ -30,6 +30,8 @@ int main() {
     PRINT_RES(BinanceAPI::exchangeInfo());
     PRINT_RES(BinanceAPI::depth("BTCUSDT"));
     PRINT_RES(BinanceAPI::trade("BTCUSDT", "5"));
+
+    // below isn't complete yet
     PRINT_RES(BinanceAPI::accountInfo("BTCUSDT", "5"));
     
     std::string response = BinanceAPI::klines("BTCUSDT", "1m", "5", "", "", "8");

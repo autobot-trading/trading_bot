@@ -10,7 +10,6 @@ void split_string( string &s, char delim, vector <string> &result) {
     while (std::getline(ss, item, delim)) {
         result.push_back(item);
     }
-    
 }
 
 
