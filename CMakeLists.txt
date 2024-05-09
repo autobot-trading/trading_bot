@@ -26,7 +26,7 @@ target_link_libraries(trading_bot OpenSSL::SSL)
 
 # Set the path to the jsoncpp package configuration file
 set(jsoncpp_DIR /opt/homebrew/opt/jsoncpp) # Update this line
-find_package(jsoncpp REQUIRED)
+# find_package(jsoncpp CONFIG REQUIRED)
 # target_link_libraries(trading_bot jsoncpp_lib)
 
 #include "json/json.h"
