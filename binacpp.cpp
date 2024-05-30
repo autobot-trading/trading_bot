@@ -1,13 +1,9 @@
-
-
 /*
 	Author: tensaix2j
 	Date  : 2017/10/15
 	
 	C++ library for Binance API.
 */
-
-
 #include "binacpp.h"
 #include "binacpp_logger.h"
 #include "binacpp_utils.h"
@@ -44,8 +40,9 @@ BinaCPP::cleanup()
 //------------------
 //GET /api/v1/time
 //------------
-void 
-BinaCPP::get_serverTime( Json::Value &json_result) 
+#include "json/json.h"
+
+void BinaCPP::get_serverTime(Json::Value& json_result) 
 {
 	BinaCPP_logger::write_log( "<BinaCPP::get_serverTime>" ) ;
 
@@ -490,7 +487,7 @@ timestamp	LONG	YES
 
 
 void 
-BinaCPP::get_account( long recvWindow,  Json::Value &json_result ) 
+BinaCPP::get_account(long recvWindow,  Json::Value & json_result ) 
 {	
 
 	BinaCPP_logger::write_log( "<BinaCPP::get_account>" ) ;

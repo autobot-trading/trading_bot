@@ -53,7 +53,7 @@ std::string BinanceAPI::klines(const std::string& symbol, const std::string& int
 //                              const std::s);
 
 
-std::string BinanceAPI::callAPI(const string& endpoint) {
+std::string BinanceAPI::callAPI(const string & endpoint) {
     CURL *curl = curl_easy_init();
     string response;
 
