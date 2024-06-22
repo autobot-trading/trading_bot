@@ -14,7 +14,9 @@ include_directories(src/api)
 add_executable(trading_bot test/main.cpp src/api/binance/binance_api.cpp
         src/api/binance/binance_api.cpp
         test/trade_endpoint.cpp
-        src/api/curl_main.cpp)
+        src/api/curl_main.cpp
+        src/api/alphavantage/alphavantage_api.h
+        src/api/alphavantage/alphavantage_api.cpp)
 
 target_link_libraries(${PROJECT_NAME} PkgConfig::Xlsxwriter)
 target_link_libraries(trading_bot CURL::libcurl)

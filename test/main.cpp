@@ -8,6 +8,7 @@
 #include <xlsxwriter.h>
 #include <sstream>
 #include "../src/api/binance/binance_api.h"
+#include "alphavantage/alphavantage_api.h"
 
 namespace fs = std::filesystem;
 
@@ -16,10 +17,18 @@ namespace fs = std::filesystem;
 
 void printRes(const std::string& api, const std::string& methodName = "unknown");
 void generateExcel(const std::string& response);
+void binanceApiTest();
+void alphavantageApiTest();
 
 #define PRINT_RES(api) printRes(api, REMOVE_SCOPE(api))
 
 int main() {
+    // binanceApiTest();
+    alphavantageApiTest();
+    return 0;
+}
+
+void binanceApiTest() {
     PRINT_RES(BinanceAPI::ping());
     PRINT_RES(BinanceAPI::exchangeInfo());
     PRINT_RES(BinanceAPI::depth("BTCUSDT"));
@@ -27,7 +36,13 @@ int main() {
     std::string response = BinanceAPI::klines("BTCUSDT", "1m", "5", "", "", "8");
     PRINT_RES(response);
     generateExcel(response);
-    return 0;
+}
+
+void alphavantageApiTest() {
+    AlphaVantageAPI api("VX2MEZ75W5JNSLFY");
+    PRINT_RES(api.getTimeSeriesDaily("AAPL"));
+    PRINT_RES(api.getTimeSeriesIntraday("AAPL", "5min"));
+    PRINT_RES(api.getQuoteEndpoint("AAPL"));
 }
 
 void printRes(const std::string& api, const std::string& methodName) {
