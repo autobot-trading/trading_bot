@@ -83,86 +83,68 @@ CMakeFiles/trading_bot.dir/test/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_bot.dir/test/main.cpp.s"
 	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emma/Desktop/Repos/trading_bot/test/main.cpp -o CMakeFiles/trading_bot.dir/test/main.cpp.s
 
-CMakeFiles/trading_bot.dir/binance_api.cpp.o: CMakeFiles/trading_bot.dir/flags.make
-CMakeFiles/trading_bot.dir/binance_api.cpp.o: /Users/emma/Desktop/Repos/trading_bot/binance_api.cpp
-CMakeFiles/trading_bot.dir/binance_api.cpp.o: CMakeFiles/trading_bot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/emma/Desktop/Repos/trading_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trading_bot.dir/binance_api.cpp.o"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_bot.dir/binance_api.cpp.o -MF CMakeFiles/trading_bot.dir/binance_api.cpp.o.d -o CMakeFiles/trading_bot.dir/binance_api.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/binance_api.cpp
+CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o: CMakeFiles/trading_bot.dir/flags.make
+CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o: /Users/emma/Desktop/Repos/trading_bot/src/api/binance/binance_api.cpp
+CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o: CMakeFiles/trading_bot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/emma/Desktop/Repos/trading_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o"
+	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o -MF CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o.d -o CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/src/api/binance/binance_api.cpp
 
-CMakeFiles/trading_bot.dir/binance_api.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_bot.dir/binance_api.cpp.i"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emma/Desktop/Repos/trading_bot/binance_api.cpp > CMakeFiles/trading_bot.dir/binance_api.cpp.i
+CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.i"
+	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emma/Desktop/Repos/trading_bot/src/api/binance/binance_api.cpp > CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.i
 
-CMakeFiles/trading_bot.dir/binance_api.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_bot.dir/binance_api.cpp.s"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emma/Desktop/Repos/trading_bot/binance_api.cpp -o CMakeFiles/trading_bot.dir/binance_api.cpp.s
+CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.s"
+	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emma/Desktop/Repos/trading_bot/src/api/binance/binance_api.cpp -o CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.s
 
-CMakeFiles/trading_bot.dir/place_order.cpp.o: CMakeFiles/trading_bot.dir/flags.make
-CMakeFiles/trading_bot.dir/place_order.cpp.o: /Users/emma/Desktop/Repos/trading_bot/place_order.cpp
-CMakeFiles/trading_bot.dir/place_order.cpp.o: CMakeFiles/trading_bot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/emma/Desktop/Repos/trading_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trading_bot.dir/place_order.cpp.o"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_bot.dir/place_order.cpp.o -MF CMakeFiles/trading_bot.dir/place_order.cpp.o.d -o CMakeFiles/trading_bot.dir/place_order.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/place_order.cpp
+CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o: CMakeFiles/trading_bot.dir/flags.make
+CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o: /Users/emma/Desktop/Repos/trading_bot/src/api/curl_main.cpp
+CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o: CMakeFiles/trading_bot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/emma/Desktop/Repos/trading_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o"
+	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o -MF CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o.d -o CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/src/api/curl_main.cpp
 
-CMakeFiles/trading_bot.dir/place_order.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_bot.dir/place_order.cpp.i"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emma/Desktop/Repos/trading_bot/place_order.cpp > CMakeFiles/trading_bot.dir/place_order.cpp.i
+CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.i"
+	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emma/Desktop/Repos/trading_bot/src/api/curl_main.cpp > CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.i
 
-CMakeFiles/trading_bot.dir/place_order.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_bot.dir/place_order.cpp.s"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emma/Desktop/Repos/trading_bot/place_order.cpp -o CMakeFiles/trading_bot.dir/place_order.cpp.s
+CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.s"
+	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emma/Desktop/Repos/trading_bot/src/api/curl_main.cpp -o CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.s
 
-CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o: CMakeFiles/trading_bot.dir/flags.make
-CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o: /Users/emma/Desktop/Repos/trading_bot/binacpp_websocket.cpp
-CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o: CMakeFiles/trading_bot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/emma/Desktop/Repos/trading_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o -MF CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o.d -o CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/binacpp_websocket.cpp
+CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o: CMakeFiles/trading_bot.dir/flags.make
+CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o: /Users/emma/Desktop/Repos/trading_bot/src/api/alphavantage/alphavantage_api.cpp
+CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o: CMakeFiles/trading_bot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/emma/Desktop/Repos/trading_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o"
+	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o -MF CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o.d -o CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/src/api/alphavantage/alphavantage_api.cpp
 
-CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.i"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emma/Desktop/Repos/trading_bot/binacpp_websocket.cpp > CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.i
+CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.i"
+	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emma/Desktop/Repos/trading_bot/src/api/alphavantage/alphavantage_api.cpp > CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.i
 
-CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.s"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emma/Desktop/Repos/trading_bot/binacpp_websocket.cpp -o CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.s
-
-CMakeFiles/trading_bot.dir/binacpp.cpp.o: CMakeFiles/trading_bot.dir/flags.make
-CMakeFiles/trading_bot.dir/binacpp.cpp.o: /Users/emma/Desktop/Repos/trading_bot/binacpp.cpp
-CMakeFiles/trading_bot.dir/binacpp.cpp.o: CMakeFiles/trading_bot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/emma/Desktop/Repos/trading_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/trading_bot.dir/binacpp.cpp.o"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_bot.dir/binacpp.cpp.o -MF CMakeFiles/trading_bot.dir/binacpp.cpp.o.d -o CMakeFiles/trading_bot.dir/binacpp.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/binacpp.cpp
-
-CMakeFiles/trading_bot.dir/binacpp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_bot.dir/binacpp.cpp.i"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emma/Desktop/Repos/trading_bot/binacpp.cpp > CMakeFiles/trading_bot.dir/binacpp.cpp.i
-
-CMakeFiles/trading_bot.dir/binacpp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_bot.dir/binacpp.cpp.s"
-	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emma/Desktop/Repos/trading_bot/binacpp.cpp -o CMakeFiles/trading_bot.dir/binacpp.cpp.s
+CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.s"
+	/opt/homebrew/bin/aarch64-apple-darwin23-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emma/Desktop/Repos/trading_bot/src/api/alphavantage/alphavantage_api.cpp -o CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.s
 
 # Object files for target trading_bot
 trading_bot_OBJECTS = \
 "CMakeFiles/trading_bot.dir/test/main.cpp.o" \
-"CMakeFiles/trading_bot.dir/binance_api.cpp.o" \
-"CMakeFiles/trading_bot.dir/place_order.cpp.o" \
-"CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o" \
-"CMakeFiles/trading_bot.dir/binacpp.cpp.o"
+"CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o" \
+"CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o" \
+"CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o"
 
 # External object files for target trading_bot
 trading_bot_EXTERNAL_OBJECTS =
 
 trading_bot: CMakeFiles/trading_bot.dir/test/main.cpp.o
-trading_bot: CMakeFiles/trading_bot.dir/binance_api.cpp.o
-trading_bot: CMakeFiles/trading_bot.dir/place_order.cpp.o
-trading_bot: CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o
-trading_bot: CMakeFiles/trading_bot.dir/binacpp.cpp.o
+trading_bot: CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o
+trading_bot: CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o
+trading_bot: CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o
 trading_bot: CMakeFiles/trading_bot.dir/build.make
 trading_bot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libcurl.tbd
-trading_bot: /opt/homebrew/Cellar/openssl@3/3.3.0/lib/libssl.dylib
 trading_bot: /opt/homebrew/Cellar/libxlsxwriter/1.1.7/lib/libxlsxwriter.dylib
 trading_bot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libz.tbd
-trading_bot: /opt/homebrew/Cellar/openssl@3/3.3.0/lib/libcrypto.dylib
 trading_bot: CMakeFiles/trading_bot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/emma/Desktop/Repos/trading_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable trading_bot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/emma/Desktop/Repos/trading_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable trading_bot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trading_bot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

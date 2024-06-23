@@ -11,9 +11,11 @@ pkg_check_modules(Xlsxwriter REQUIRED IMPORTED_TARGET xlsxwriter)
 include_directories(src/api)
 
 # Add the executable
-add_executable(trading_bot test/main.cpp src/api/binance/binance_api.cpp
+add_executable(
+        trading_bot 
+        test/main.cpp 
         src/api/binance/binance_api.cpp
-        test/trade_endpoint.cpp
+        src/api/binance/binance_api.cpp
         src/api/curl_main.cpp
         src/api/alphavantage/alphavantage_api.h
         src/api/alphavantage/alphavantage_api.cpp)

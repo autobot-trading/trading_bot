@@ -129,101 +129,77 @@ trading_bot/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/build
 .PHONY : trading_bot/fast
 
-binacpp.o: binacpp.cpp.o
-.PHONY : binacpp.o
+src/api/alphavantage/alphavantage_api.o: src/api/alphavantage/alphavantage_api.cpp.o
+.PHONY : src/api/alphavantage/alphavantage_api.o
 
 # target to build an object file
-binacpp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp.cpp.o
-.PHONY : binacpp.cpp.o
+src/api/alphavantage/alphavantage_api.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o
+.PHONY : src/api/alphavantage/alphavantage_api.cpp.o
 
-binacpp.i: binacpp.cpp.i
-.PHONY : binacpp.i
+src/api/alphavantage/alphavantage_api.i: src/api/alphavantage/alphavantage_api.cpp.i
+.PHONY : src/api/alphavantage/alphavantage_api.i
 
 # target to preprocess a source file
-binacpp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp.cpp.i
-.PHONY : binacpp.cpp.i
+src/api/alphavantage/alphavantage_api.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.i
+.PHONY : src/api/alphavantage/alphavantage_api.cpp.i
 
-binacpp.s: binacpp.cpp.s
-.PHONY : binacpp.s
+src/api/alphavantage/alphavantage_api.s: src/api/alphavantage/alphavantage_api.cpp.s
+.PHONY : src/api/alphavantage/alphavantage_api.s
 
 # target to generate assembly for a file
-binacpp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp.cpp.s
-.PHONY : binacpp.cpp.s
+src/api/alphavantage/alphavantage_api.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.s
+.PHONY : src/api/alphavantage/alphavantage_api.cpp.s
 
-binacpp_websocket.o: binacpp_websocket.cpp.o
-.PHONY : binacpp_websocket.o
+src/api/binance/binance_api.o: src/api/binance/binance_api.cpp.o
+.PHONY : src/api/binance/binance_api.o
 
 # target to build an object file
-binacpp_websocket.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o
-.PHONY : binacpp_websocket.cpp.o
+src/api/binance/binance_api.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o
+.PHONY : src/api/binance/binance_api.cpp.o
 
-binacpp_websocket.i: binacpp_websocket.cpp.i
-.PHONY : binacpp_websocket.i
+src/api/binance/binance_api.i: src/api/binance/binance_api.cpp.i
+.PHONY : src/api/binance/binance_api.i
 
 # target to preprocess a source file
-binacpp_websocket.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.i
-.PHONY : binacpp_websocket.cpp.i
+src/api/binance/binance_api.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.i
+.PHONY : src/api/binance/binance_api.cpp.i
 
-binacpp_websocket.s: binacpp_websocket.cpp.s
-.PHONY : binacpp_websocket.s
+src/api/binance/binance_api.s: src/api/binance/binance_api.cpp.s
+.PHONY : src/api/binance/binance_api.s
 
 # target to generate assembly for a file
-binacpp_websocket.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.s
-.PHONY : binacpp_websocket.cpp.s
+src/api/binance/binance_api.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.s
+.PHONY : src/api/binance/binance_api.cpp.s
 
-binance_api.o: binance_api.cpp.o
-.PHONY : binance_api.o
+src/api/curl_main.o: src/api/curl_main.cpp.o
+.PHONY : src/api/curl_main.o
 
 # target to build an object file
-binance_api.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binance_api.cpp.o
-.PHONY : binance_api.cpp.o
+src/api/curl_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o
+.PHONY : src/api/curl_main.cpp.o
 
-binance_api.i: binance_api.cpp.i
-.PHONY : binance_api.i
-
-# target to preprocess a source file
-binance_api.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binance_api.cpp.i
-.PHONY : binance_api.cpp.i
-
-binance_api.s: binance_api.cpp.s
-.PHONY : binance_api.s
-
-# target to generate assembly for a file
-binance_api.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/binance_api.cpp.s
-.PHONY : binance_api.cpp.s
-
-place_order.o: place_order.cpp.o
-.PHONY : place_order.o
-
-# target to build an object file
-place_order.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/place_order.cpp.o
-.PHONY : place_order.cpp.o
-
-place_order.i: place_order.cpp.i
-.PHONY : place_order.i
+src/api/curl_main.i: src/api/curl_main.cpp.i
+.PHONY : src/api/curl_main.i
 
 # target to preprocess a source file
-place_order.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/place_order.cpp.i
-.PHONY : place_order.cpp.i
+src/api/curl_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.i
+.PHONY : src/api/curl_main.cpp.i
 
-place_order.s: place_order.cpp.s
-.PHONY : place_order.s
+src/api/curl_main.s: src/api/curl_main.cpp.s
+.PHONY : src/api/curl_main.s
 
 # target to generate assembly for a file
-place_order.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/place_order.cpp.s
-.PHONY : place_order.cpp.s
+src/api/curl_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_bot.dir/build.make CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.s
+.PHONY : src/api/curl_main.cpp.s
 
 test/main.o: test/main.cpp.o
 .PHONY : test/main.o
@@ -258,18 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... trading_bot"
-	@echo "... binacpp.o"
-	@echo "... binacpp.i"
-	@echo "... binacpp.s"
-	@echo "... binacpp_websocket.o"
-	@echo "... binacpp_websocket.i"
-	@echo "... binacpp_websocket.s"
-	@echo "... binance_api.o"
-	@echo "... binance_api.i"
-	@echo "... binance_api.s"
-	@echo "... place_order.o"
-	@echo "... place_order.i"
-	@echo "... place_order.s"
+	@echo "... src/api/alphavantage/alphavantage_api.o"
+	@echo "... src/api/alphavantage/alphavantage_api.i"
+	@echo "... src/api/alphavantage/alphavantage_api.s"
+	@echo "... src/api/binance/binance_api.o"
+	@echo "... src/api/binance/binance_api.i"
+	@echo "... src/api/binance/binance_api.s"
+	@echo "... src/api/curl_main.o"
+	@echo "... src/api/curl_main.i"
+	@echo "... src/api/curl_main.s"
 	@echo "... test/main.o"
 	@echo "... test/main.i"
 	@echo "... test/main.s"

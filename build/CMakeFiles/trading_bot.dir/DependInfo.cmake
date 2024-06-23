@@ -8,10 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/emma/Desktop/Repos/trading_bot/binacpp.cpp" "CMakeFiles/trading_bot.dir/binacpp.cpp.o" "gcc" "CMakeFiles/trading_bot.dir/binacpp.cpp.o.d"
-  "/Users/emma/Desktop/Repos/trading_bot/binacpp_websocket.cpp" "CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o" "gcc" "CMakeFiles/trading_bot.dir/binacpp_websocket.cpp.o.d"
-  "/Users/emma/Desktop/Repos/trading_bot/binance_api.cpp" "CMakeFiles/trading_bot.dir/binance_api.cpp.o" "gcc" "CMakeFiles/trading_bot.dir/binance_api.cpp.o.d"
-  "/Users/emma/Desktop/Repos/trading_bot/place_order.cpp" "CMakeFiles/trading_bot.dir/place_order.cpp.o" "gcc" "CMakeFiles/trading_bot.dir/place_order.cpp.o.d"
+  "/Users/emma/Desktop/Repos/trading_bot/src/api/alphavantage/alphavantage_api.cpp" "CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o" "gcc" "CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o.d"
+  "/Users/emma/Desktop/Repos/trading_bot/src/api/binance/binance_api.cpp" "CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o" "gcc" "CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o.d"
+  "/Users/emma/Desktop/Repos/trading_bot/src/api/curl_main.cpp" "CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o" "gcc" "CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o.d"
   "/Users/emma/Desktop/Repos/trading_bot/test/main.cpp" "CMakeFiles/trading_bot.dir/test/main.cpp.o" "gcc" "CMakeFiles/trading_bot.dir/test/main.cpp.o.d"
   )
 
