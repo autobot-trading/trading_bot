@@ -9,11 +9,7 @@
 #include <sstream>
 #include "../src/api/binance/binance_api.h"
 #include "alphavantage/alphavantage_api.h"
-
-
-#include "../binacpp_utils.h"
-#include "../binacpp_websocket.h"
-#include "../binacpp_logger.h"
+#include "../src/db/mysql_test.h"
 
 
 namespace fs = std::filesystem;
@@ -30,7 +26,8 @@ void alphavantageApiTest();
 
 int main() {
     // binanceApiTest();
-    alphavantageApiTest();
+//    alphavantageApiTest();
+    mysql_test::test();
     return 0;
 }
 
