@@ -24,7 +24,7 @@ void alphavantageApiTest();
 
 #define PRINT_RES(api) printRes(api, REMOVE_SCOPE(api))
 
-int main() {
+int test_main() {
     // binanceApiTest();
 //    alphavantageApiTest();
     mysql_test::test();
