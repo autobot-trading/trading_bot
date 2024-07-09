@@ -3,3 +3,4 @@ cmake-build-debug/
 
 # ignore secure information
 *.pem
+/trading-servant/node_modules
