@@ -69,10 +69,10 @@ add_definitions(
         -DDATABASE_MIGRATIONS="${CMAKE_CURRENT_SOURCE_DIR}/sql"
 )
 
-if(CMAKE_SYSTEM_NAME MATCHES Linux)
-    find_package(Threads REQUIRED)
-    target_link_libraries(crud-lib INTERFACE Threads::Threads ${CMAKE_DL_LIBS})
-endif()
+#if(CMAKE_SYSTEM_NAME MATCHES Linux)
+#    find_package(Threads REQUIRED)
+#    target_link_libraries(crud-lib INTERFACE Threads::Threads ${CMAKE_DL_LIBS})
+#endif()
 
 
 
