@@ -84,3 +84,6 @@ EXPOSE 8000
 
 # Command to run the executable
 CMD ["./build/trading_bot"]
+
+# docker buildx build --platform linux/amd64,linux/arm64 -t onepersonhere/trading_bot --push .
+# docker run -p 8000:8000 onepersonhere/trading_bot
