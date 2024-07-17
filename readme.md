@@ -80,7 +80,7 @@
   - market-make against flow
     - things can trade against the fair price
     - especially in less efficient market
-    - ![img.png](img.png)
+    - ![img.png](notes/img.png)
 
 - Market making options
   - For a single stock, there can be 1000s of different options

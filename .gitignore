@@ -1,2 +1,7 @@
 # ignore cmake-build-debug folder
 cmake-build-debug/
+
+# ignore secure information
+*.pem
+/trading-servant/node_modules
+/cmake-build-docker

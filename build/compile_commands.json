@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/emma/Desktop/Repos/trading_bot/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-13  -I/Users/emma/Desktop/Repos/trading_bot/src/api -isystem /opt/homebrew/Cellar/libxlsxwriter/1.1.7/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/trading_bot.dir/test/main.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/test/main.cpp",
+  "file": "/Users/emma/Desktop/Repos/trading_bot/test/main.cpp",
+  "output": "CMakeFiles/trading_bot.dir/test/main.cpp.o"
+},
+{
+  "directory": "/Users/emma/Desktop/Repos/trading_bot/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-13  -I/Users/emma/Desktop/Repos/trading_bot/src/api -isystem /opt/homebrew/Cellar/libxlsxwriter/1.1.7/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/src/api/binance/binance_api.cpp",
+  "file": "/Users/emma/Desktop/Repos/trading_bot/src/api/binance/binance_api.cpp",
+  "output": "CMakeFiles/trading_bot.dir/src/api/binance/binance_api.cpp.o"
+},
+{
+  "directory": "/Users/emma/Desktop/Repos/trading_bot/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-13  -I/Users/emma/Desktop/Repos/trading_bot/src/api -isystem /opt/homebrew/Cellar/libxlsxwriter/1.1.7/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/src/api/curl_main.cpp",
+  "file": "/Users/emma/Desktop/Repos/trading_bot/src/api/curl_main.cpp",
+  "output": "CMakeFiles/trading_bot.dir/src/api/curl_main.cpp.o"
+},
+{
+  "directory": "/Users/emma/Desktop/Repos/trading_bot/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-13  -I/Users/emma/Desktop/Repos/trading_bot/src/api -isystem /opt/homebrew/Cellar/libxlsxwriter/1.1.7/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o -c /Users/emma/Desktop/Repos/trading_bot/src/api/alphavantage/alphavantage_api.cpp",
+  "file": "/Users/emma/Desktop/Repos/trading_bot/src/api/alphavantage/alphavantage_api.cpp",
+  "output": "CMakeFiles/trading_bot.dir/src/api/alphavantage/alphavantage_api.cpp.o"
+}
+]
